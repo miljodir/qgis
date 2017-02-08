@@ -3,72 +3,75 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Marine naturtyper">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Naturtyper klasser naturbase">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_omrade20170208181530914" name="naturtype_marin_omrade">
-        <customproperties>
-          <property key="overview" value="1"/>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_skjellsand_omrade20170208174740013" name="naturtype_marin_skjellsand_omrade">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="Marine naturtyper">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_alegras_omrade20170208174900924" name="naturtype_marin_alegras_omrade">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_omrade20170208181530914" name="naturtype_marin_omrade">
+          <customproperties>
+            <property key="overview" value="1"/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_skjellsand_omrade20170208174740013" name="naturtype_marin_skjellsand_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_alegras_omrade20170208174900924" name="naturtype_marin_alegras_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_korall_omrade20170208174903972" name="naturtype_marin_korall_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_blotbunn_omrade20170208174906942" name="naturtype_marin_blotbunn_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_isrand_omrade20170208174909234" name="naturtype_marin_isrand_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_litoral_omrade20170208174912033" name="naturtype_marin_litoral_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_pollerogdyp_omrade20170208174914931" name="naturtype_marin_pollerogdyp_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_oksygen_omrade20170208174918047" name="naturtype_marin_oksygen_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_tidevann_omrade20170208174921443" name="naturtype_marin_tidevann_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_marin_tare_omrade20170208174923706" name="naturtype_marin_tare_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="naturtype_marin_omrade20170208174928650" name="naturtype_marin_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="Naturtype kulturbetinget">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_korall_omrade20170208174903972" name="naturtype_marin_korall_omrade">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_kulturbetinget_punkt20170208174732153" name="naturtype_kulturbetinget_punkt">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_kulturbetinget_omrade20170208174729156" name="naturtype_kulturbetinget_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="Skogstyper">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_blotbunn_omrade20170208174906942" name="naturtype_marin_blotbunn_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_isrand_omrade20170208174909234" name="naturtype_marin_isrand_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_litoral_omrade20170208174912033" name="naturtype_marin_litoral_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_pollerogdyp_omrade20170208174914931" name="naturtype_marin_pollerogdyp_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_oksygen_omrade20170208174918047" name="naturtype_marin_oksygen_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_tidevann_omrade20170208174921443" name="naturtype_marin_tidevann_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_marin_tare_omrade20170208174923706" name="naturtype_marin_tare_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="naturtype_marin_omrade20170208174928650" name="naturtype_marin_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-    </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Naturtype kulturbetinget">
-      <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_kulturbetinget_punkt20170208174732153" name="naturtype_kulturbetinget_punkt">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_kulturbetinget_omrade20170208174729156" name="naturtype_kulturbetinget_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-    </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Skogstyper">
-      <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_ovrige_skogtyper_omrade20170208174709660" name="naturtype_ovrige_skogtyper_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_rik_blandingsskog_lavland_omrade20170208174713882" name="naturtype_rik_blandingsskog_lavland_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_gammel_fattig_edellauvskog_omrade20170208174717176" name="naturtype_gammel_fattig_edellauvskog_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="naturtype_rik_edellauvskog_omrade20170208174720516" name="naturtype_rik_edellauvskog_omrade">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_ovrige_skogtyper_omrade20170208174709660" name="naturtype_ovrige_skogtyper_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_rik_blandingsskog_lavland_omrade20170208174713882" name="naturtype_rik_blandingsskog_lavland_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_gammel_fattig_edellauvskog_omrade20170208174717176" name="naturtype_gammel_fattig_edellauvskog_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="naturtype_rik_edellauvskog_omrade20170208174720516" name="naturtype_rik_edellauvskog_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
     </layer-tree-group>
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="Norges_grunnkart20170208214932686" name="Norges grunnkart">
       <customproperties/>
@@ -78,10 +81,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>299401.67187426378950477</xmin>
-      <ymin>7039294.93632147181779146</ymin>
-      <xmax>301701.21170173201244324</xmax>
-      <ymax>7044112.58193663414567709</ymax>
+      <xmin>295933.59543463040608913</xmin>
+      <ymin>7034972.30665598437190056</ymin>
+      <xmax>302581.29914266418199986</xmax>
+      <ymax>7048899.5629867147654295</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -146,101 +149,103 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" checked="Qt::Unchecked" name="Marine naturtyper">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="1" layerid="naturtype_marin_omrade20170208181530914" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_skjellsand_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_skjellsand_omrade20170208174740013" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_alegras_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_alegras_omrade20170208174900924" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_korall_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_korall_omrade20170208174903972" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_blotbunn_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_blotbunn_omrade20170208174906942" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_isrand_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_isrand_omrade20170208174909234" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_litoral_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_litoral_omrade20170208174912033" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_pollerogdyp_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_pollerogdyp_omrade20170208174914931" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_oksygen_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_oksygen_omrade20170208174918047" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_tidevann_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_tidevann_omrade20170208174921443" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_marin_tare_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_tare_omrade20170208174923706" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="naturtype_marin_omrade" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_marin_omrade20170208174928650" visible="0"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Naturtype kulturbetinget">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_kulturbetinget_punkt" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_kulturbetinget_punkt20170208174732153" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_kulturbetinget_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_kulturbetinget_omrade20170208174729156" visible="0"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Skogstyper">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_ovrige_skogtyper_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_ovrige_skogtyper_omrade20170208174709660" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_rik_blandingsskog_lavland_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_rik_blandingsskog_lavland_omrade20170208174713882" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_gammel_fattig_edellauvskog_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_gammel_fattig_edellauvskog_omrade20170208174717176" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="naturtype_rik_edellauvskog_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturtype_rik_edellauvskog_omrade20170208174720516" visible="0"/>
-        </filegroup>
-      </legendlayer>
+    <legendgroup open="true" checked="Qt::Checked" name="Naturtyper klasser naturbase">
+      <legendgroup open="false" checked="Qt::Checked" name="Marine naturtyper">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="1" layerid="naturtype_marin_omrade20170208181530914" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_skjellsand_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_skjellsand_omrade20170208174740013" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_alegras_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_alegras_omrade20170208174900924" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_korall_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_korall_omrade20170208174903972" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_blotbunn_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_blotbunn_omrade20170208174906942" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_isrand_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_isrand_omrade20170208174909234" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_litoral_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_litoral_omrade20170208174912033" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_pollerogdyp_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_pollerogdyp_omrade20170208174914931" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_oksygen_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_oksygen_omrade20170208174918047" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_tidevann_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_tidevann_omrade20170208174921443" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_marin_tare_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_tare_omrade20170208174923706" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="naturtype_marin_omrade" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_marin_omrade20170208174928650" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="false" checked="Qt::Checked" name="Naturtype kulturbetinget">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_kulturbetinget_punkt" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_kulturbetinget_punkt20170208174732153" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_kulturbetinget_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_kulturbetinget_omrade20170208174729156" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="false" checked="Qt::Checked" name="Skogstyper">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_ovrige_skogtyper_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_ovrige_skogtyper_omrade20170208174709660" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_rik_blandingsskog_lavland_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_rik_blandingsskog_lavland_omrade20170208174713882" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_gammel_fattig_edellauvskog_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_gammel_fattig_edellauvskog_omrade20170208174717176" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="naturtype_rik_edellauvskog_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="naturtype_rik_edellauvskog_omrade20170208174720516" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
     </legendgroup>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Norges grunnkart" showFeatureCount="0">
       <filegroup open="false" hidden="false">
@@ -971,7 +976,7 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-8.89189200000000035</xmin>
         <ymin>57.76530000000000342</ymin>
@@ -997,6 +1002,7 @@
         </spatialrefsys>
       </srs>
       <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Html"/>
       </customproperties>
       <provider>wms</provider>
