@@ -40,10 +40,13 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="forvaltningsplanomrader_hav_svo_barentshavet20170208101847481" name="forvaltningsplanomrader_hav:svo_barentshavet">
         <customproperties/>
       </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="forvaltningsplanomrader_hav_svo_norskehavet20170208101847263" name="forvaltningsplanomrader_hav:svo_norskehavet">
+        <customproperties/>
+      </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="forvaltningsplanomrader_hav_svo_nordsjoen20170208101847373" name="forvaltningsplanomrader_hav:svo_nordsjoen">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="forvaltningsplanomrader_hav_svo_norskehavet20170208101847263" name="forvaltningsplanomrader_hav:svo_norskehavet">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="svo_barentshavet20170202213705397" name="svo_barentshavet">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="svo_norskehavet20170202213712726" name="svo_norskehavet">
@@ -52,24 +55,21 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="svo_nordsjoen20170202213709788" name="svo_nordsjoen">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="svo_barentshavet20170202213705397" name="svo_barentshavet">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Fjordkatalogen">
         <customproperties/>
-      </layer-tree-layer>
-    </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Fjordkatalogen">
-      <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_grenser20170208101915734" name="fjordkatalogen:fjordkatalogen_grenser">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_omrade20170202222712533" name="fjordkatalogen:fjordkatalogen_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_omrade20170202222927095" name="fjordkatalogen_omrade">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="fjordkatalogen_grenser20170202222818285" name="fjordkatalogen_grenser">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_grenser20170208101915734" name="fjordkatalogen:fjordkatalogen_grenser">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_omrade20170202222712533" name="fjordkatalogen:fjordkatalogen_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_omrade20170202222927095" name="fjordkatalogen_omrade">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_grenser20170202222818285" name="fjordkatalogen_grenser">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Marine sektorer">
       <customproperties/>
@@ -88,10 +88,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-776041.57607362163253129</xmin>
-      <ymin>6472665.3811557125300169</ymin>
-      <xmax>1644339.69059485546313226</xmax>
-      <ymax>7866715.65753066353499889</ymax>
+      <xmin>-1011383.77409386751241982</xmin>
+      <ymin>6431328.06014767754822969</ymin>
+      <xmax>1754766.24495581979863346</xmax>
+      <ymax>8024528.37600478809326887</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -221,14 +221,19 @@
           <legendlayerfile isInOverview="0" layerid="forvaltningsplanomrader_hav_svo_barentshavet20170208101847481" visible="1"/>
         </filegroup>
       </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="forvaltningsplanomrader_hav:svo_norskehavet" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="forvaltningsplanomrader_hav_svo_norskehavet20170208101847263" visible="1"/>
+        </filegroup>
+      </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="forvaltningsplanomrader_hav:svo_nordsjoen" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="forvaltningsplanomrader_hav_svo_nordsjoen20170208101847373" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="forvaltningsplanomrader_hav:svo_norskehavet" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="forvaltningsplanomrader_hav_svo_norskehavet20170208101847263" visible="1"/>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="svo_barentshavet" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="svo_barentshavet20170202213705397" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="svo_norskehavet" showFeatureCount="0">
@@ -241,33 +246,28 @@
           <legendlayerfile isInOverview="0" layerid="svo_nordsjoen20170202213709788" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="svo_barentshavet" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="svo_barentshavet20170202213705397" visible="0"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Fjordkatalogen">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_grenser" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_grenser20170208101915734" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_omrade" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_omrade20170202222712533" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_omrade" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_omrade20170202222927095" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="fjordkatalogen_grenser" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_grenser20170202222818285" visible="1"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="true" checked="Qt::Unchecked" name="Fjordkatalogen">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_grenser" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_grenser20170208101915734" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_omrade" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_omrade20170202222712533" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_omrade" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_omrade20170202222927095" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_grenser" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_grenser20170202222818285" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
     </legendgroup>
     <legendgroup open="true" checked="Qt::Unchecked" name="Marine sektorer">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="marin_sektor_omrade" showFeatureCount="0">
@@ -576,6 +576,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1173,6 +1174,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1472,6 +1474,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -3116,10 +3119,10 @@ def my_form_open(dialog, layer, feature):
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="ShapeburstFill" locked="0">
-              <prop k="blur_radius" v="9"/>
+              <prop k="blur_radius" v="5"/>
               <prop k="color" v="0,0,255,255"/>
-              <prop k="color1" v="247,252,245,255"/>
-              <prop k="color2" v="0,125,27,255"/>
+              <prop k="color1" v="247,252,245,179"/>
+              <prop k="color2" v="0,125,27,179"/>
               <prop k="color_type" v="1"/>
               <prop k="discrete" v="0"/>
               <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3130,7 +3133,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="stops" v="0.13;229,245,224,255:0.26;199,233,192,255:0.39;161,217,155,255:0.52;116,196,118,255:0.65;65,171,93,255:0.78;35,139,69,255:0.9;0,109,44,255"/>
+              <prop k="stops" v="0.13;229,245,224,179:0.26;199,233,192,179:0.39;161,217,155,179:0.518029;116,196,118,179:0.65;65,171,93,179:0.78;35,139,69,179:0.9;0,109,44,179"/>
               <prop k="use_whole_shape" v="0"/>
             </layer>
             <layer pass="0" class="SimpleLine" locked="0">
@@ -3327,6 +3330,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -3365,6 +3369,9 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="SVO_NAVN"/>
           <column width="-1" hidden="0" type="field" name="SVO_NAVN_E"/>
           <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="SVO_GR_NO"/>
+          <column width="-1" hidden="0" type="field" name="SVO_GR_EN"/>
+          <column width="-1" hidden="0" type="field" name="SVO_NR"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3447,10 +3454,10 @@ def my_form_open(dialog, layer, feature):
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="ShapeburstFill" locked="0">
-              <prop k="blur_radius" v="9"/>
+              <prop k="blur_radius" v="5"/>
               <prop k="color" v="0,0,255,255"/>
-              <prop k="color1" v="247,252,245,255"/>
-              <prop k="color2" v="0,125,27,255"/>
+              <prop k="color1" v="247,252,245,179"/>
+              <prop k="color2" v="0,125,27,179"/>
               <prop k="color_type" v="1"/>
               <prop k="discrete" v="0"/>
               <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3461,7 +3468,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="stops" v="0.13;229,245,224,255:0.26;199,233,192,255:0.39;161,217,155,255:0.52;116,196,118,255:0.65;65,171,93,255:0.78;35,139,69,255:0.9;0,109,44,255"/>
+              <prop k="stops" v="0.13;229,245,224,179:0.26;199,233,192,179:0.39;161,217,155,179:0.518029;116,196,118,179:0.65;65,171,93,179:0.78;35,139,69,179:0.9;0,109,44,179"/>
               <prop k="use_whole_shape" v="0"/>
             </layer>
             <layer pass="0" class="SimpleLine" locked="0">
@@ -3698,6 +3705,9 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="SVO_NAVN"/>
           <column width="-1" hidden="0" type="field" name="SVO_NAVN_E"/>
           <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="SVO_GR_NO"/>
+          <column width="-1" hidden="0" type="field" name="SVO_GR_EN"/>
+          <column width="-1" hidden="0" type="field" name="SVO_NR"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3784,10 +3794,10 @@ def my_form_open(dialog, layer, feature):
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="ShapeburstFill" locked="0">
-              <prop k="blur_radius" v="9"/>
+              <prop k="blur_radius" v="5"/>
               <prop k="color" v="0,0,255,255"/>
-              <prop k="color1" v="247,252,245,255"/>
-              <prop k="color2" v="0,125,27,255"/>
+              <prop k="color1" v="247,252,245,179"/>
+              <prop k="color2" v="0,125,27,179"/>
               <prop k="color_type" v="1"/>
               <prop k="discrete" v="0"/>
               <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3798,7 +3808,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="stops" v="0.13;229,245,224,255:0.26;199,233,192,255:0.39;161,217,155,255:0.52;116,196,118,255:0.65;65,171,93,255:0.78;35,139,69,255:0.9;0,109,44,255"/>
+              <prop k="stops" v="0.13;229,245,224,179:0.26;199,233,192,179:0.39;161,217,155,179:0.518029;116,196,118,179:0.65;65,171,93,179:0.78;35,139,69,179:0.9;0,109,44,179"/>
               <prop k="use_whole_shape" v="0"/>
             </layer>
             <layer pass="0" class="SimpleLine" locked="0">
@@ -4037,6 +4047,9 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="SVO_NAVN"/>
           <column width="-1" hidden="0" type="field" name="SVO_NAVN_E"/>
           <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="SVO_GR_NO"/>
+          <column width="-1" hidden="0" type="field" name="SVO_GR_EN"/>
+          <column width="-1" hidden="0" type="field" name="SVO_NR"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
