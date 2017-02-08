@@ -11,15 +11,15 @@
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="friluftsliv_statlig_sikra20170208141758686" name="friluftsliv_statlig_sikra">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Kartlagt friluftsliv">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Kartlagt friluftsliv">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="friluftsliv_kartlagt_faktaark20170208141901114" name="friluftsliv_kartlagt_faktaark">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="friluftsliv_kartlagt_faktaark20170208211753627" name="friluftsliv_kartlagt_faktaark">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="friluftsliv_kartlagt_verdi20170208141906026" name="friluftsliv_kartlagt_verdi">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="friluftsliv_kartlagt_verdi20170208211529143" name="friluftsliv_kartlagt_verdi">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="friluftsliv_kartlagt_omrtype20170208141903371" name="friluftsliv_kartlagt_omrtype">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="friluftsliv_kartlagt_omrtype20170208211650663" name="friluftsliv_kartlagt_omrtype">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -31,10 +31,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-88931.64374184896587394</xmin>
-      <ymin>6337544.38004268892109394</ymin>
-      <xmax>395579.04845661588478833</xmax>
-      <ymax>6961183.88571797870099545</ymax>
+      <xmin>108677.65636377953342162</xmin>
+      <ymin>6717453.07043236307799816</ymin>
+      <xmax>300228.57565008697565645</xmax>
+      <ymax>7080947.62755979225039482</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -55,22 +55,27 @@
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="gebco20170202223057152"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="marin_sektor_omrade20170202223822402"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_svo_barentshavet20170208101847481"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtype_kulturbetinget_omrade20170208210059884"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_omrtype20170208141903371"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_fp_nordsjoen_grenser20170208101648679"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_svo_barentshavet20170202213432046"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fp_norskehavet20170202213650612"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_fp_norskehavet_grenser20170208101649202"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_fp_barentshavet_grenser20170208101647214"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_faktaark20170208211738009"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_faktaark20170208211753627"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_statlig_sikra20170208170206452"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="svo_norskehavet20170202213712726"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_svo_nordsjoen20170208101847373"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="fjordkatalogen_fjordkatalogen_grenser20170208101915734"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_omrtype20170208211609502"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_fp_nordsjoen20170208101647596"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fp_barentshavet20170202213632555"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_fp_barentshavet20170202213326904"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="Topografisk_norgeskart_3_gråtone20170208172211704"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_svo_nordsjoen20170202213446443"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fp_nordsjoen20170202213647141"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_verdi20170208211529143"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_verdi20170208141906026"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_faktaark20170208141901114"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_svo_norskehavet20170208101847263"/>
@@ -78,6 +83,7 @@
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="marin_verneplan_marin_vp_ikke_oppstart20170202223941548"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fjordkatalogen_omrade20170202222927095"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_statlig_sikra20170208141758686"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_omrtype20170208211650663"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="forvaltningsplanomrader_hav_fp_nordsjoen20170202213335930"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_statlig_sikra20170208142035604"/>
       <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fjordkatalogen_grenser20170202222818285"/>
@@ -95,11 +101,11 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>friluftsliv_statlig_sikra20170208141758686</item>
-      <item>friluftsliv_kartlagt_faktaark20170208141901114</item>
-      <item>friluftsliv_kartlagt_omrtype20170208141903371</item>
-      <item>friluftsliv_kartlagt_verdi20170208141906026</item>
       <item>friluftsliv_statlig_sikra20170208170206452</item>
       <item>Topografisk_norgeskart_3_gråtone20170208172211704</item>
+      <item>friluftsliv_kartlagt_verdi20170208211529143</item>
+      <item>friluftsliv_kartlagt_omrtype20170208211650663</item>
+      <item>friluftsliv_kartlagt_faktaark20170208211753627</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -113,20 +119,20 @@
         <legendlayerfile isInOverview="0" layerid="friluftsliv_statlig_sikra20170208141758686" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Kartlagt friluftsliv">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="friluftsliv_kartlagt_faktaark" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Checked" name="Kartlagt friluftsliv">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="friluftsliv_kartlagt_faktaark" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_faktaark20170208141901114" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_faktaark20170208211753627" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="friluftsliv_kartlagt_verdi" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="friluftsliv_kartlagt_verdi" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_verdi20170208141906026" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_verdi20170208211529143" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="friluftsliv_kartlagt_omrtype" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_omrtype20170208141903371" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_omrtype20170208211650663" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -189,8 +195,8 @@
         <xmax>855100.0143709999974817</xmax>
         <ymax>7845900.04186000023037195</ymax>
       </extent>
-      <id>friluftsliv_kartlagt_faktaark20170208141901114</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=friluftsliv_kartlagt_faktaark&amp;styles=&amp;url=http://wms.miljodirektoratet.no/arcgis/services/friluftsliv_kartlagt/mapserver/WMSServer?version%3D1.1.1%26</datasource>
+      <id>friluftsliv_kartlagt_faktaark20170208211753627</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=friluftsliv_kartlagt_faktaark&amp;styles=&amp;url=http://wms.miljodirektoratet.no/arcgis/services/friluftsliv_kartlagt/mapserver/WMSServer?version%3D1.1.1%26</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -227,15 +233,15 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-68899.98778100000345148</xmin>
         <ymin>6465900.03864699974656105</ymin>
         <xmax>855100.0143709999974817</xmax>
         <ymax>7845900.04186000023037195</ymax>
       </extent>
-      <id>friluftsliv_kartlagt_omrtype20170208141903371</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=friluftsliv_kartlagt_omrtype&amp;styles=&amp;url=http://wms.miljodirektoratet.no/arcgis/services/friluftsliv_kartlagt/mapserver/WMSServer?version%3D1.1.1%26</datasource>
+      <id>friluftsliv_kartlagt_omrtype20170208211650663</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=friluftsliv_kartlagt_omrtype&amp;styles=&amp;url=http://wms.miljodirektoratet.no/arcgis/services/friluftsliv_kartlagt/mapserver/WMSServer?version%3D1.1.1%26</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -253,7 +259,6 @@
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Html"/>
       </customproperties>
       <provider>wms</provider>
@@ -264,7 +269,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.694118" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -280,8 +285,8 @@
         <xmax>855100.0143709999974817</xmax>
         <ymax>7845900.04186000023037195</ymax>
       </extent>
-      <id>friluftsliv_kartlagt_verdi20170208141906026</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=friluftsliv_kartlagt_verdi&amp;styles=&amp;url=http://wms.miljodirektoratet.no/arcgis/services/friluftsliv_kartlagt/mapserver/WMSServer?version%3D1.1.1%26</datasource>
+      <id>friluftsliv_kartlagt_verdi20170208211529143</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=friluftsliv_kartlagt_verdi&amp;styles=&amp;url=http://wms.miljodirektoratet.no/arcgis/services/friluftsliv_kartlagt/mapserver/WMSServer?version%3D1.1.1%26</datasource>
       <keywordList>
         <value></value>
       </keywordList>
