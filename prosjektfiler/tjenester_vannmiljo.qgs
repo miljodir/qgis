@@ -1,0 +1,408 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.3">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="vannlokaliteter_pkt20170212213050428" name="vannlokaliteter_pkt">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="vannlokaliteter_lin20170212213047859" name="vannlokaliteter_lin">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="vannlokaliteter_pol20170212213044758" name="vannlokaliteter_pol">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="Norges_grunnkart20170208223740703" name="Norges grunnkart">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>275686.34289843216538429</xmin>
+      <ymin>7071160.9076937809586525</ymin>
+      <xmax>281873.98081723181530833</xmax>
+      <ymax>7084124.3042532317340374</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3117</srsid>
+        <srid>32633</srid>
+        <authid>EPSG:32633</authid>
+        <description>WGS 84 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_omrade_punkt20170208224549637"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemark_omrade_punkt20170208224348194"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturvern_omrade20170209123743799"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="satveg_10020170212212521493"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="vannlokaliteter_pkt_vannlokaliteter_lin_vannlokaliteter_pol20170212213011069"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="vannlokaliteter_pol20170212213044758"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="satveg_3020170212212524638"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturvern_punkt20170209123746177"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kalksjo_punkt20170208224152076"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemark_omrade20170208224614842"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_punkt_naturtyper_slattemyr_omrade_punkt_naturtyper_slattemyr_omrade20170208224539846"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_omrade20170208224545600"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_hule_eiker_punkt20170208224526396"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemark_omrade20170208224341155"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_omrade_punkt20170208224431429"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kystlynghei_omrade_punkt20170208223921026"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_punkt20170208224434212"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="vannlokaliteter_pkt20170212213050428"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemark_omrade_punkt20170208224617537"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kystlynghei_punkt20170208223939994"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_punkt20170208224552356"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="vannlokaliteter_lin20170212213047859"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_hule_eiker_omrade_punkt20170208224321121"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kystlynghei_punkt20170208223924597"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kalklindeskog_omrade_punkt20170208224036550"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kystlynghei_omrade20170208223916906"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="foreslatt_naturvern_omrade20170209123740263"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemark_punkt20170208224620437"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kalksjo_omrade20170208224145915"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kalksjo_omrade_punkt20170208224149286"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kalklindeskog_omrade20170208224032615"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_kalklindeskog_punkt20170208224039980"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="industrianlegg20170209133327355"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="Norges_grunnkart20170208223740703"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemyr_omrade20170208224428770"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_hule_eiker_omrade20170208224521158"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_hule_eiker_omrade_punkt20170208224523622"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_hule_eiker_punkt20170208224324157"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_slattemark_punkt20170208224351375"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturtyper_hule_eiker_omrade20170208224318107"/>
+      <layer_coordinate_transform destAuthId="EPSG:32633" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturvern_klasser_omrade20170209123738120"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>Norges_grunnkart20170208223740703</item>
+      <item>vannlokaliteter_pol20170212213044758</item>
+      <item>vannlokaliteter_lin20170212213047859</item>
+      <item>vannlokaliteter_pkt20170212213050428</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="vannlokaliteter_pkt" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="vannlokaliteter_pkt20170212213050428" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="vannlokaliteter_lin" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="vannlokaliteter_lin20170212213047859" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="vannlokaliteter_pol" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="vannlokaliteter_pol20170212213044758" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Norges grunnkart" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Norges_grunnkart20170208223740703" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-127998</xmin>
+        <ymin>6377920</ymin>
+        <xmax>1145510</xmax>
+        <ymax>9045980</ymax>
+      </extent>
+      <id>Norges_grunnkart20170208223740703</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Norges_grunnkart&amp;styles=&amp;url=http://openwms.statkart.no/skwms1/wms.norges_grunnkart?</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Norges grunnkart</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3117</srsid>
+          <srid>32633</srid>
+          <authid>EPSG:32633</authid>
+          <description>WGS 84 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-5120763.26769800018519163</xmin>
+        <ymin>-9997963.94301900081336498</ymin>
+        <xmax>6120763.26769800018519163</xmax>
+        <ymax>9997963.94301900081336498</ymax>
+      </extent>
+      <id>vannlokaliteter_lin20170212213047859</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=vannlokaliteter_lin&amp;styles=&amp;url=http://kart.miljodirektoratet.no/arcgis/services/vannmiljo/mapserver/WMSServer?version%3D1.1.1%26</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>vannlokaliteter_lin</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3117</srsid>
+          <srid>32633</srid>
+          <authid>EPSG:32633</authid>
+          <description>WGS 84 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-5120763.26769800018519163</xmin>
+        <ymin>-9997963.94301900081336498</ymin>
+        <xmax>6120763.26769800018519163</xmax>
+        <ymax>9997963.94301900081336498</ymax>
+      </extent>
+      <id>vannlokaliteter_pkt20170212213050428</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=vannlokaliteter_pkt&amp;styles=&amp;url=http://kart.miljodirektoratet.no/arcgis/services/vannmiljo/mapserver/WMSServer?version%3D1.1.1%26</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>vannlokaliteter_pkt</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3117</srsid>
+          <srid>32633</srid>
+          <authid>EPSG:32633</authid>
+          <description>WGS 84 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-5120763.26769800018519163</xmin>
+        <ymin>-9997963.94301900081336498</ymin>
+        <xmax>6120763.26769800018519163</xmax>
+        <ymax>9997963.94301900081336498</ymax>
+      </extent>
+      <id>vannlokaliteter_pol20170212213044758</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=vannlokaliteter_pol&amp;styles=&amp;url=http://kart.miljodirektoratet.no/arcgis/services/vannmiljo/mapserver/WMSServer?version%3D1.1.1%26</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>vannlokaliteter_pol</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3117</srsid>
+          <srid>32633</srid>
+          <authid>EPSG:32633</authid>
+          <description>WGS 84 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <WMSUrl type="QString"></WMSUrl>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:32633</ProjectCrs>
+      <ProjectCRSID type="int">3117</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <SemiAutomaticClassificationPlugin>
+      <bandSetPresent type="QString">No</bandSetPresent>
+      <bndSetWvLn type="QString">[]</bndSetWvLn>
+      <bndSetMultF type="QString">[]</bndSetMultF>
+      <bndSetUnit type="QString">band number</bndSetUnit>
+      <rasterName type="QString"></rasterName>
+      <bandSet type="QString">[]</bandSet>
+      <previewSize type="QString">200</previewSize>
+      <bndSetAddF type="QString">[]</bndSetAddF>
+    </SemiAutomaticClassificationPlugin>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSRestrictedComposers type="QStringList"/>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <WCSLayers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <WFSLayers type="QStringList"/>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+  </properties>
+  <visibility-presets/>
+</qgis>
