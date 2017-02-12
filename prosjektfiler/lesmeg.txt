@@ -6,3 +6,5 @@ Filene i denne katalogen foreligger i to kategorier:
 En tjeneste refererer her til en av Miljødirektoratets offisielle WMS/WFS-tjenester. Hver slik tjeneste leveres som ett eller flere kartlag.
 
 En sammenstilling refererer til en eller flere tjenester som har en tematisk sammenheng.
+
+I hovedsak foreligger WMS-tjenester. Vi har også lagt ut noen WFS-tjenester. Disse har en mer fleksibel stilsetting enn WMS-tjenestene.
