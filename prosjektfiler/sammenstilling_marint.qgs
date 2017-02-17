@@ -35,6 +35,21 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Fjordkatalogen">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_grenser20170208101915734" name="fjordkatalogen:fjordkatalogen_grenser">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_omrade20170202222712533" name="fjordkatalogen:fjordkatalogen_omrade">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_omrade20170202222927095" name="fjordkatalogen_omrade">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_grenser20170202222818285" name="fjordkatalogen_grenser">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="SVO">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="forvaltningsplanomrader_hav_svo_barentshavet20170208101847481" name="forvaltningsplanomrader_hav:svo_barentshavet">
@@ -55,21 +70,6 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="svo_nordsjoen20170202213709788" name="svo_nordsjoen">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Fjordkatalogen">
-        <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_grenser20170208101915734" name="fjordkatalogen:fjordkatalogen_grenser">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fjordkatalogen_fjordkatalogen_omrade20170202222712533" name="fjordkatalogen:fjordkatalogen_omrade">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_omrade20170202222927095" name="fjordkatalogen_omrade">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fjordkatalogen_grenser20170202222818285" name="fjordkatalogen_grenser">
-          <customproperties/>
-        </layer-tree-layer>
-      </layer-tree-group>
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Marine sektorer">
       <customproperties/>
@@ -88,10 +88,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-1011383.77409386751241982</xmin>
-      <ymin>6431328.06014767754822969</ymin>
-      <xmax>1754766.24495581979863346</xmax>
-      <ymax>8024528.37600478809326887</ymax>
+      <xmin>-23473.05300469347275794</xmin>
+      <ymin>7000328.17295378819108009</ymin>
+      <xmax>766855.52386664575897157</xmax>
+      <ymax>7455528.26319867745041847</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -215,6 +215,28 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
+    <legendgroup open="true" checked="Qt::Unchecked" name="Fjordkatalogen">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_grenser" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_grenser20170208101915734" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_omrade" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_omrade20170202222712533" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_omrade" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_omrade20170202222927095" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_grenser" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="fjordkatalogen_grenser20170202222818285" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="SVO">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="forvaltningsplanomrader_hav:svo_barentshavet" showFeatureCount="0">
         <filegroup open="true" hidden="false">
@@ -246,28 +268,6 @@
           <legendlayerfile isInOverview="0" layerid="svo_nordsjoen20170202213709788" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::Unchecked" name="Fjordkatalogen">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_grenser" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_grenser20170208101915734" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fjordkatalogen:fjordkatalogen_omrade" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_fjordkatalogen_omrade20170202222712533" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_omrade" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_omrade20170202222927095" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fjordkatalogen_grenser" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="fjordkatalogen_grenser20170202222818285" visible="0"/>
-          </filegroup>
-        </legendlayer>
-      </legendgroup>
     </legendgroup>
     <legendgroup open="true" checked="Qt::Unchecked" name="Marine sektorer">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="marin_sektor_omrade" showFeatureCount="0">
