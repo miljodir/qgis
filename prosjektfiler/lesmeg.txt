@@ -2,6 +2,7 @@ Filene i denne katalogen foreligger i to kategorier:
 
 * tjenester
 * sammenstilling
+* annet
 
 En tjeneste refererer her til en av Miljødirektoratets offisielle WMS/WFS-tjenester. Hver slik tjeneste leveres som ett eller flere kartlag.
 
