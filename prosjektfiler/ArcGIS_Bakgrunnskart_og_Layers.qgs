@@ -1,0 +1,369 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.12">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="mapserver" checked="Qt::Checked" id="kulturlandskap_helhetlige20180124090726901" source=" crs='EPSG:25833' format='PNG' layer='0' url='https://trdetestarcgi01.miljodirektoratet.no/arcgis/rest/services/kulturlandskap_helhetlige/MapServer' table=&quot;&quot; sql=" name="kulturlandskap_helhetlige">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="mapserver" checked="Qt::Checked" id="friluftsliv_kartlagt_verdi20180124090222762" source=" crs='EPSG:32633' format='PNG' layer='0' url='http://wms.miljodirektoratet.no/arcgis/rest/services/friluftsliv_kartlagt/MapServer' table=&quot;&quot; sql=" name="friluftsliv_kartlagt_verdi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="mapserver" checked="Qt::Unchecked" id="SSB500m_omriss20180124083726468" source=" crs='EPSG:32633' format='PNG' layer='0' url='https://trdearcgis01.miljodirektoratet.no/arcgis/rest/services/Interne_tjenester/SSB500m/MapServer' table=&quot;&quot; sql=" name="SSB500m omriss">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="mapserver" checked="Qt::Unchecked" id="GeocacheBasis20180124083213715" source=" crs='EPSG:25833' format='JPG' layer='0' url='https://services.geodataonline.no/arcgis/rest/services/Geocache_UTM33_EUREF89/GeocacheBasis/MapServer' table=&quot;&quot; sql=" name="GeocacheBasis">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="mapserver" checked="Qt::Checked" id="GeocacheGråtone20180124083014149" source=" crs='EPSG:25833' format='JPG' layer='0' url='https://services.geodataonline.no/arcgis/rest/services/Geocache_UTM33_EUREF89/GeocacheGraatone/MapServer' table=&quot;&quot; sql=" name="GeocacheGråtone">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>334016.70125100575387478</xmin>
+      <ymin>7265019.78804981522262096</ymin>
+      <xmax>387311.85671745450235903</xmax>
+      <ymax>7298969.24878537468612194</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2106</srsid>
+        <srid>25833</srid>
+        <authid>EPSG:25833</authid>
+        <description>ETRS89 / UTM zone 33N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="SSB500m_omriss20180124083726468"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="GeocacheGråtone20180124083014149"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_verdi20180124090222762"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:32633" srcDatumTransform="-1" destDatumTransform="-1" layerid="friluftsliv_kartlagt_omrtype20180124085844143"/>
+      <layer_coordinate_transform destAuthId="EPSG:25833" srcAuthId="EPSG:25833" srcDatumTransform="-1" destDatumTransform="-1" layerid="kulturlandskap_helhetlige20180124090726901"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>GeocacheGråtone20180124083014149</item>
+      <item>GeocacheBasis20180124083213715</item>
+      <item>SSB500m_omriss20180124083726468</item>
+      <item>friluftsliv_kartlagt_verdi20180124090222762</item>
+      <item>kulturlandskap_helhetlige20180124090726901</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="kulturlandskap_helhetlige" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="kulturlandskap_helhetlige20180124090726901" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="friluftsliv_kartlagt_verdi" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="friluftsliv_kartlagt_verdi20180124090222762" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="SSB500m omriss" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="SSB500m_omriss20180124083726468" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GeocacheBasis" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="GeocacheBasis20180124083213715" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GeocacheGråtone" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="GeocacheGråtone20180124083014149" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-3708422.0276999999769032</xmin>
+        <ymin>3479849.93909999914467335</ymin>
+        <xmax>4766389.58860000036656857</xmax>
+        <ymax>10155660.62400000169873238</ymax>
+      </extent>
+      <id>GeocacheBasis20180124083213715</id>
+      <datasource> crs='EPSG:25833' format='JPG' layer='0' url='https://services.geodataonline.no/arcgis/rest/services/Geocache_UTM33_EUREF89/GeocacheBasis/MapServer' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-01-24T08:32:14</timestamp>
+      <layername>GeocacheBasis</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2106</srsid>
+          <srid>25833</srid>
+          <authid>EPSG:25833</authid>
+          <description>ETRS89 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Feature"/>
+      </customproperties>
+      <provider>arcgismapserver</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-3708422.0276999999769032</xmin>
+        <ymin>3479849.93909999914467335</ymin>
+        <xmax>4766389.58860000036656857</xmax>
+        <ymax>10155660.62400000169873238</ymax>
+      </extent>
+      <id>GeocacheGråtone20180124083014149</id>
+      <datasource> crs='EPSG:25833' format='JPG' layer='0' url='https://services.geodataonline.no/arcgis/rest/services/Geocache_UTM33_EUREF89/GeocacheGraatone/MapServer' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-01-24T08:30:14</timestamp>
+      <layername>GeocacheGråtone</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2106</srsid>
+          <srid>25833</srid>
+          <authid>EPSG:25833</authid>
+          <description>ETRS89 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Feature"/>
+      </customproperties>
+      <provider>arcgismapserver</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-75500</xmin>
+        <ymin>6449500</ymin>
+        <xmax>1114999</xmax>
+        <ymax>7940500</ymax>
+      </extent>
+      <id>SSB500m_omriss20180124083726468</id>
+      <datasource> crs='EPSG:32633' format='PNG' layer='0' url='https://trdearcgis01.miljodirektoratet.no/arcgis/rest/services/Interne_tjenester/SSB500m/MapServer' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-01-24T08:37:26</timestamp>
+      <layername>SSB500m omriss</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3117</srsid>
+          <srid>32633</srid>
+          <authid>EPSG:32633</authid>
+          <description>WGS 84 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Feature"/>
+      </customproperties>
+      <provider>arcgismapserver</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-68899.98778081500495318</xmin>
+        <ymin>6465900.03864733036607504</ymin>
+        <xmax>855100.01437054004054517</xmax>
+        <ymax>7845900.04186039045453072</ymax>
+      </extent>
+      <id>friluftsliv_kartlagt_verdi20180124090222762</id>
+      <datasource> crs='EPSG:32633' format='PNG' layer='0' url='http://wms.miljodirektoratet.no/arcgis/rest/services/friluftsliv_kartlagt/MapServer' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-01-24T09:02:23</timestamp>
+      <layername>friluftsliv_kartlagt_verdi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3117</srsid>
+          <srid>32633</srid>
+          <authid>EPSG:32633</authid>
+          <description>WGS 84 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Feature"/>
+      </customproperties>
+      <provider>arcgismapserver</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.843137" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-65474</xmin>
+        <ymin>6458192.49000000022351742</ymin>
+        <xmax>1108559.66999999992549419</xmax>
+        <ymax>7939533.32000000029802322</ymax>
+      </extent>
+      <id>kulturlandskap_helhetlige20180124090726901</id>
+      <datasource> crs='EPSG:25833' format='PNG' layer='0' url='https://trdetestarcgi01.miljodirektoratet.no/arcgis/rest/services/kulturlandskap_helhetlige/MapServer' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-01-24T09:07:27</timestamp>
+      <layername>kulturlandskap_helhetlige</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2106</srsid>
+          <srid>25833</srid>
+          <authid>EPSG:25833</authid>
+          <description>ETRS89 / UTM zone 33N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Feature"/>
+      </customproperties>
+      <provider>arcgismapserver</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:25833</ProjectCrs>
+      <ProjectCRSID type="int">2106</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
