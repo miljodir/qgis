@@ -21,31 +21,31 @@
     <customproperties/>
     <layer-tree-group name="1000-ruter" expanded="1" checked="Qt::Checked">
       <customproperties/>
-      <layer-tree-layer providerKey="wms" name="mnd_maks_1000m_detaljert" expanded="0" id="mnd_maks_1000m_detaljert_6201908d_9e4b_4e8c_a8b5_7eb27440855a" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_1000m_detaljert&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Unchecked">
+      <layer-tree-layer id="mnd_maks_1000m_detaljert_6201908d_9e4b_4e8c_a8b5_7eb27440855a" name="mnd_maks_1000m_detaljert" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_1000m_detaljert&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Unchecked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" name="mnd_maks_1000m_generell" expanded="0" id="mnd_maks_1000m_generell_84fb5c66_1d53_4bb2_8235_d765065088ae" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_1000m_generell&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Checked">
+      <layer-tree-layer id="mnd_maks_1000m_generell_84fb5c66_1d53_4bb2_8235_d765065088ae" name="mnd_maks_1000m_generell" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_1000m_generell&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-group name="250-ruter" expanded="1" checked="Qt::Checked">
       <customproperties/>
-      <layer-tree-layer providerKey="wms" name="mnd_maks_250m_detaljert" expanded="0" id="mnd_maks_250m_detaljert_17c3b28f_70d2_4fab_a1a7_76b305e9938c" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_250m_detaljert&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Checked">
+      <layer-tree-layer id="mnd_maks_250m_detaljert_17c3b28f_70d2_4fab_a1a7_76b305e9938c" name="mnd_maks_250m_detaljert" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_250m_detaljert&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Unchecked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" name="mnd_maks_250m_generell" expanded="0" id="mnd_maks_250m_generell_1267723f_4bbd_402c_a4b4_68273b376129" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_250m_generell&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Unchecked">
+      <layer-tree-layer id="mnd_maks_250m_generell_1267723f_4bbd_402c_a4b4_68273b376129" name="mnd_maks_250m_generell" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mnd_maks_250m_generell&amp;styles&amp;url=http://wms.miljodirektoratet.no/geoserver/prioriteringskart_sjo/wms?version%3D1.1.1%26" checked="Qt::Unchecked">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Bakgrunnskart" expanded="0" checked="Qt::Checked">
+    <layer-tree-group name="Bakgrunnskart" expanded="1" checked="Qt::Checked">
       <customproperties/>
-      <layer-tree-layer providerKey="wms" name="Topografisk norgeskart 4" expanded="0" id="Topografisk_norgeskart_4_7b205f3b_8edf_49dc_970d_ba8d66b4e90f" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=topo4_WMS&amp;styles&amp;url=https://openwms.statkart.no/skwms1/wms.topo4?" checked="Qt::Checked">
+      <layer-tree-layer id="Topografisk_norgeskart_4_7b205f3b_8edf_49dc_970d_ba8d66b4e90f" name="Topografisk norgeskart 4" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=topo4_WMS&amp;styles&amp;url=https://openwms.statkart.no/skwms1/wms.topo4?" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" name="GEBCO skyggerelief WMS" expanded="1" id="GEBCO_skyggerelief_WMS_b49f0002_2b94_4c1d_8b4a_91a1ac77fd62" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=GEBCO_Skyggerelieff_WMS&amp;styles&amp;url=https://wms.geonorge.no/skwms1/wms.gebco_skyggerelieff" checked="Qt::Unchecked">
+      <layer-tree-layer id="GEBCO_skyggerelief_WMS_b49f0002_2b94_4c1d_8b4a_91a1ac77fd62" name="GEBCO skyggerelief WMS" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=GEBCO_Skyggerelieff_WMS&amp;styles&amp;url=https://wms.geonorge.no/skwms1/wms.gebco_skyggerelieff" checked="Qt::Unchecked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" name="gebco" expanded="0" id="gebco20170202223057152" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=miljoverdi:gebco&amp;styles=&amp;url=http://wms.miljodirektoratet.no/geoserver/ows?version%3D1.1.1%26" checked="Qt::Unchecked">
+      <layer-tree-layer id="gebco20170202223057152" name="gebco" providerKey="wms" expanded="0" source="contextualWMSLegend=0&amp;crs=EPSG:32633&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=miljoverdi:gebco&amp;styles=&amp;url=http://wms.miljodirektoratet.no/geoserver/ows?version%3D1.1.1%26" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -59,17 +59,17 @@
       <item>Topografisk_norgeskart_4_7b205f3b_8edf_49dc_970d_ba8d66b4e90f</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings type="1" enabled="0" mode="1" intersection-snapping="0" unit="2" tolerance="0">
+  <snapping-settings unit="2" enabled="0" tolerance="0" type="1" mode="1" intersection-snapping="0">
     <individual-layer-settings/>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>383284.07063786900835112</xmin>
-      <ymin>7296058.35757319070398808</ymin>
-      <xmax>384865.02676268416689709</xmax>
-      <ymax>7296968.92995024286210537</ymax>
+      <xmin>-1211766.49822729034349322</xmin>
+      <ymin>6300155.50029703788459301</ymin>
+      <xmax>1878765.25881230086088181</xmax>
+      <ymax>8080187.7251389604061842</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -88,121 +88,52 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" name="1000-ruter" checked="Qt::Checked">
-      <legendlayer open="false" showFeatureCount="0" name="mnd_maks_1000m_detaljert" drawingOrder="-1" checked="Qt::Unchecked">
-        <filegroup hidden="false" open="false">
-          <legendlayerfile layerid="mnd_maks_1000m_detaljert_6201908d_9e4b_4e8c_a8b5_7eb27440855a" visible="0" isInOverview="0"/>
+    <legendgroup name="1000-ruter" open="true" checked="Qt::Checked">
+      <legendlayer name="mnd_maks_1000m_detaljert" open="false" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="0" layerid="mnd_maks_1000m_detaljert_6201908d_9e4b_4e8c_a8b5_7eb27440855a" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="false" showFeatureCount="0" name="mnd_maks_1000m_generell" drawingOrder="-1" checked="Qt::Checked">
-        <filegroup hidden="false" open="false">
-          <legendlayerfile layerid="mnd_maks_1000m_generell_84fb5c66_1d53_4bb2_8235_d765065088ae" visible="1" isInOverview="0"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup open="true" name="250-ruter" checked="Qt::Checked">
-      <legendlayer open="false" showFeatureCount="0" name="mnd_maks_250m_detaljert" drawingOrder="-1" checked="Qt::Checked">
-        <filegroup hidden="false" open="false">
-          <legendlayerfile layerid="mnd_maks_250m_detaljert_17c3b28f_70d2_4fab_a1a7_76b305e9938c" visible="1" isInOverview="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer open="false" showFeatureCount="0" name="mnd_maks_250m_generell" drawingOrder="-1" checked="Qt::Unchecked">
-        <filegroup hidden="false" open="false">
-          <legendlayerfile layerid="mnd_maks_250m_generell_1267723f_4bbd_402c_a4b4_68273b376129" visible="0" isInOverview="0"/>
+      <legendlayer name="mnd_maks_1000m_generell" open="false" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="1" layerid="mnd_maks_1000m_generell_84fb5c66_1d53_4bb2_8235_d765065088ae" isInOverview="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" name="Bakgrunnskart" checked="Qt::Checked">
-      <legendlayer open="false" showFeatureCount="0" name="Topografisk norgeskart 4" drawingOrder="-1" checked="Qt::Checked">
-        <filegroup hidden="false" open="false">
-          <legendlayerfile layerid="Topografisk_norgeskart_4_7b205f3b_8edf_49dc_970d_ba8d66b4e90f" visible="1" isInOverview="0"/>
+    <legendgroup name="250-ruter" open="true" checked="Qt::Checked">
+      <legendlayer name="mnd_maks_250m_detaljert" open="false" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="0" layerid="mnd_maks_250m_detaljert_17c3b28f_70d2_4fab_a1a7_76b305e9938c" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="true" showFeatureCount="0" name="GEBCO skyggerelief WMS" drawingOrder="-1" checked="Qt::Unchecked">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile layerid="GEBCO_skyggerelief_WMS_b49f0002_2b94_4c1d_8b4a_91a1ac77fd62" visible="0" isInOverview="0"/>
+      <legendlayer name="mnd_maks_250m_generell" open="false" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="0" layerid="mnd_maks_250m_generell_1267723f_4bbd_402c_a4b4_68273b376129" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="false" showFeatureCount="0" name="gebco" drawingOrder="-1" checked="Qt::Unchecked">
-        <filegroup hidden="false" open="false">
-          <legendlayerfile layerid="gebco20170202223057152" visible="0" isInOverview="0"/>
+    </legendgroup>
+    <legendgroup name="Bakgrunnskart" open="true" checked="Qt::Checked">
+      <legendlayer name="Topografisk norgeskart 4" open="false" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="1" layerid="Topografisk_norgeskart_4_7b205f3b_8edf_49dc_970d_ba8d66b4e90f" isInOverview="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer name="GEBCO skyggerelief WMS" open="false" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="0" layerid="GEBCO_skyggerelief_WMS_b49f0002_2b94_4c1d_8b4a_91a1ac77fd62" isInOverview="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer name="gebco" open="false" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="1" layerid="gebco20170202223057152" isInOverview="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
-    <units>degrees</units>
-    <extent>
-      <xmin>0</xmin>
-      <ymin>0</ymin>
-      <xmax>0</xmax>
-      <ymax>0</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-  </mapcanvas>
-  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
-    <units>degrees</units>
-    <extent>
-      <xmin>0</xmin>
-      <ymin>0</ymin>
-      <xmax>0</xmax>
-      <ymax>0</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-  </mapcanvas>
-  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
-    <units>degrees</units>
-    <extent>
-      <xmin>0</xmin>
-      <ymin>0</ymin>
-      <xmax>0</xmax>
-      <ymax>0</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-  </mapcanvas>
   <projectlayers>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-7427132.79777568019926548</xmin>
         <ymin>3549019.12375610088929534</ymin>
@@ -246,14 +177,14 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -267,7 +198,7 @@
         <property value="Undefined" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" alphaBand="-1">
+        <rasterrenderer band="1" opacity="1" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -278,13 +209,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-557179.54955745441839099</xmin>
         <ymin>6327216.36110235750675201</ymin>
@@ -335,7 +266,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -349,7 +280,7 @@
         <property value="Undefined" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" alphaBand="-1">
+        <rasterrenderer band="1" opacity="1" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -360,13 +291,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-7566829.21183496154844761</xmin>
         <ymin>3479487.83537368383258581</ymin>
@@ -417,7 +348,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -431,7 +362,7 @@
         <property value="Html" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" alphaBand="-1">
+        <rasterrenderer band="1" opacity="1" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -442,13 +373,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-155000</xmin>
         <ymin>6302000.0001220703125</ymin>
@@ -505,7 +436,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" minz="0" maxz="0" maxx="0" minx="0" miny="0" dimensions="2" maxy="0"/>
+          <spatial dimensions="2" crs="" maxx="0" miny="0" minz="0" minx="0" maxz="0" maxy="0"/>
           <temporal>
             <period>
               <start></start>
@@ -516,7 +447,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -530,10 +461,10 @@
         <property value="false" key="WMSBackgroundLayer"/>
         <property value="false" key="WMSPublishDataSourceUrl"/>
         <property value="0" key="embeddedWidgets/count"/>
-        <property value="Html" key="identify/format"/>
+        <property value="Text" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.7" alphaBand="-1">
+        <rasterrenderer band="1" opacity="0.7" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -544,13 +475,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-155000</xmin>
         <ymin>6302000.0001220703125</ymin>
@@ -607,7 +538,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" minz="0" maxz="0" maxx="0" minx="0" miny="0" dimensions="2" maxy="0"/>
+          <spatial dimensions="2" crs="" maxx="0" miny="0" minz="0" minx="0" maxz="0" maxy="0"/>
           <temporal>
             <period>
               <start></start>
@@ -618,7 +549,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -632,10 +563,10 @@
         <property value="false" key="WMSBackgroundLayer"/>
         <property value="false" key="WMSPublishDataSourceUrl"/>
         <property value="0" key="embeddedWidgets/count"/>
-        <property value="Html" key="identify/format"/>
+        <property value="Text" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.7" alphaBand="-1">
+        <rasterrenderer band="1" opacity="0.7" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -646,13 +577,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-155000</xmin>
         <ymin>6302000.0001220703125</ymin>
@@ -709,7 +640,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" minz="0" maxz="0" maxx="0" minx="0" miny="0" dimensions="2" maxy="0"/>
+          <spatial dimensions="2" crs="" maxx="0" miny="0" minz="0" minx="0" maxz="0" maxy="0"/>
           <temporal>
             <period>
               <start></start>
@@ -720,7 +651,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -737,7 +668,7 @@
         <property value="Text" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.7" alphaBand="-1">
+        <rasterrenderer band="1" opacity="0.7" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -748,13 +679,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" maxScale="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" minScale="1e+08" type="raster" autoRefreshEnabled="0">
       <extent>
         <xmin>-106000</xmin>
         <ymin>6448000</ymin>
@@ -811,7 +742,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" minz="0" maxz="0" maxx="0" minx="0" miny="0" dimensions="2" maxy="0"/>
+          <spatial dimensions="2" crs="" maxx="0" miny="0" minz="0" minx="0" maxz="0" maxy="0"/>
           <temporal>
             <period>
               <start></start>
@@ -822,7 +753,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -836,10 +767,10 @@
         <property value="false" key="WMSBackgroundLayer"/>
         <property value="false" key="WMSPublishDataSourceUrl"/>
         <property value="0" key="embeddedWidgets/count"/>
-        <property value="Html" key="identify/format"/>
+        <property value="Text" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.7" alphaBand="-1">
+        <rasterrenderer band="1" opacity="0.7" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -850,8 +781,8 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
@@ -867,61 +798,74 @@
     <layer id="Topografisk_norgeskart_4_7b205f3b_8edf_49dc_970d_ba8d66b4e90f"/>
   </layerorder>
   <properties>
-    <Macros>
-      <pythonCode type="QString"></pythonCode>
-    </Macros>
-    <Variables>
-      <variableValues type="QStringList"/>
-      <variableNames type="QStringList"/>
-    </Variables>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactPosition type="QString"></WMSContactPosition>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <RandomColors type="bool">true</RandomColors>
+      <Marker type="QString"></Marker>
+      <AlphaInt type="int">255</AlphaInt>
+      <Line type="QString"></Line>
+      <Fill type="QString"></Fill>
+    </DefaultStyles>
+    <WCSLayers type="QStringList"/>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">3117</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:32633</ProjectCrs>
+    </SpatialRefSys>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
     <WMSContactPerson type="QString"></WMSContactPerson>
-    <Gui>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-    </Gui>
-    <WCSUrl type="QString"></WCSUrl>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <SemiAutomaticClassificationPlugin>
+      <bndSetWvLn type="QString">[]</bndSetWvLn>
+      <bndSetUnit type="QString">band number</bndSetUnit>
+      <bndSetMultF type="QString">[]</bndSetMultF>
+      <bndSetAddF type="QString">[]</bndSetAddF>
+      <previewSize type="QString">200</previewSize>
+      <bandSetPresent type="QString">No</bandSetPresent>
+      <rasterName type="QString"></rasterName>
+      <bandSet type="QString">[]</bandSet>
+    </SemiAutomaticClassificationPlugin>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WFSLayers type="QStringList"/>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
     <WFSUrl type="QString"></WFSUrl>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
     <Digitizing>
-      <LayerSnappingToleranceUnitList type="QStringList">
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-      </LayerSnappingToleranceUnitList>
-      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
-      <AvoidIntersectionsList type="QStringList"/>
-      <LayerSnappingList type="QStringList">
-        <value>fjordkatalogen_fjordkatalogen_grenser20170208101915734</value>
-        <value>fjordkatalogen_fjordkatalogen_omrade20170202222712533</value>
-        <value>marine_sektorer_marin_sektor_omrade20170202223924428</value>
-        <value>svo_svo_omrade20170310091855751</value>
-        <value>svo_svo_grense20170310091905055</value>
-        <value>forvaltningsplaner_havomrader_forvaltningsplaner_havomrader_grense20170310092307239</value>
-        <value>forvaltningsplaner_havomrader_forvaltningsplaner_havomrader_omrade20170310092313991</value>
-      </LayerSnappingList>
-      <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-      </LayerSnapToList>
-      <SnappingMode type="QString">current_layer</SnappingMode>
-      <DefaultSnapType type="QString">off</DefaultSnapType>
       <LayerSnappingToleranceList type="QStringList">
         <value>0.000000</value>
         <value>0.000000</value>
@@ -931,7 +875,37 @@
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
+      <LayerSnappingList type="QStringList">
+        <value>fjordkatalogen_fjordkatalogen_grenser20170208101915734</value>
+        <value>fjordkatalogen_fjordkatalogen_omrade20170202222712533</value>
+        <value>marine_sektorer_marin_sektor_omrade20170202223924428</value>
+        <value>svo_svo_omrade20170310091855751</value>
+        <value>svo_svo_grense20170310091905055</value>
+        <value>forvaltningsplaner_havomrader_forvaltningsplaner_havomrader_grense20170310092307239</value>
+        <value>forvaltningsplaner_havomrader_forvaltningsplaner_havomrader_omrade20170310092313991</value>
+      </LayerSnappingList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
         <value>disabled</value>
@@ -941,87 +915,44 @@
         <value>disabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
+      <AvoidIntersectionsList type="QStringList"/>
     </Digitizing>
-    <PAL>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <SearchMethod type="int">0</SearchMethod>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <TextFormat type="int">0</TextFormat>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <CandidatesLine type="int">50</CandidatesLine>
-    </PAL>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
+    <WMSRestrictedComposers type="QStringList"/>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-    <SpatialRefSys>
-      <ProjectCrs type="QString">EPSG:32633</ProjectCrs>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-      <ProjectCRSID type="int">3117</ProjectCRSID>
-      <ProjectCRSProj4String type="QString">+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
-    </SpatialRefSys>
-    <Identify>
-      <disabledLayers type="QStringList"/>
-    </Identify>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WFSTLayers>
-      <Update type="QStringList"/>
-      <Insert type="QStringList"/>
-      <Delete type="QStringList"/>
-    </WFSTLayers>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
-    <DefaultStyles>
-      <Line type="QString"></Line>
-      <Marker type="QString"></Marker>
-      <RandomColors type="bool">true</RandomColors>
-      <AlphaInt type="int">255</AlphaInt>
-      <ColorRamp type="QString"></ColorRamp>
-      <Fill type="QString"></Fill>
-    </DefaultStyles>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <WMSContactMail type="QString"></WMSContactMail>
-    <WCSLayers type="QStringList"/>
-    <SemiAutomaticClassificationPlugin>
-      <rasterName type="QString"></rasterName>
-      <bandSetPresent type="QString">No</bandSetPresent>
-      <bndSetUnit type="QString">band number</bndSetUnit>
-      <bndSetMultF type="QString">[]</bndSetMultF>
-      <bndSetAddF type="QString">[]</bndSetAddF>
-      <bandSet type="QString">[]</bandSet>
-      <bndSetWvLn type="QString">[]</bndSetWvLn>
-      <previewSize type="QString">200</previewSize>
-    </SemiAutomaticClassificationPlugin>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSImageQuality type="int">90</WMSImageQuality>
+    <PAL>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesLine type="int">50</CandidatesLine>
+    </PAL>
+    <Variables>
+      <variableValues type="QStringList"/>
+      <variableNames type="QStringList"/>
+    </Variables>
     <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <WMSRestrictedComposers type="QStringList"/>
-    <WMSFees type="QString">conditions unknown</WMSFees>
-    <PositionPrecision>
-      <DegreeFormat type="QString">MU</DegreeFormat>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
-    <WFSLayers type="QStringList"/>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
-    <WMSContactPhone type="QString"></WMSContactPhone>
-    <WMSUrl type="QString"></WMSUrl>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <WMSPrecision type="QString">8</WMSPrecision>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
   </properties>
   <visibility-presets/>
   <transformContext/>
